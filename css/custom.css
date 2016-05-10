@@ -1,0 +1,57 @@
+body {
+	background-color: #191918;
+}
+
+.apodContainer {
+	background-color: #000;
+	color: #fff;
+}
+
+.descriptorContainer {
+	background-color: #000;
+	padding: 15px 15px 0 15px;
+}
+
+.apod_title {
+	margin: 0;
+	padding-bottom: 15px;
+	font-style: bold;
+}
+
+.apod_description {	
+	font-size: 13px;
+}
+
+.apod_img_container {
+	padding: 7px;
+}
+
+.dataContainer,
+.marsDataContainer {
+	font-size: 0;
+}
+.dataContainer {
+	border: 1px solid #191918;
+	/*margin-bottom: 15px;*/
+}
+
+.marsDataContainer {
+	margin: 15px 0;
+}
+
+
+.marsShotItem {
+	display: inline-block;
+	width: 10%;
+	height: 550px;
+	border: 1px solid #191918;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.marsShotLink {
+	display: block;
+	height: 550px;
+}
